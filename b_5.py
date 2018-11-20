@@ -17,8 +17,6 @@ class Customer:
             return 1000
         if 20 <= self.toshi < 65:
             return 1500
-        if self.toshi >= 75:
-            return 500
         if self.toshi >= 65:
             return 1200
 
